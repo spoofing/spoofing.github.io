@@ -707,12 +707,13 @@ header p {
   -ms-border-radius: 0px 2px 2px 0px;
   -khtml-border-radius: 0px 2px 2px 0px;
   border-radius: 0px 2px 2px 0px;
-  padding-right: 10px;
+  /* padding-right: 10px; */
 }
 #banner > div {
   width: 1024px;
   position: relative;
   margin: auto;
+  text-align: center;
 }
 #banner .button {
   border: 1px solid #dba500;
@@ -763,11 +764,12 @@ header p {
   background-color: #FFE788;
 }
 #banner .downloads {
-  float: right;
-  margin: 0 45px 0 0;
+  /* float: right; */
+  /* margin: 0 45px 0 0; */
+  width: 100%;
 }
 #banner .downloads span {
-  float: left;
+  /* float: left; */
   line-height: 52px;
   font-size: 90%;
   color: #9d7f0d;
@@ -778,7 +780,7 @@ header p {
   list-style: none;
   height: 40px;
   padding: 0;
-  float: left;
+  /* float: left; */
   margin-left: 10px;
 }
 #banner ul li {
@@ -857,12 +859,13 @@ nav ul a:hover {
 }
 
 footer {
-  width: 180px;
-  position: fixed;
-  left: 50%;
-  margin-left: -530px;
-  bottom: 20px;
-  text-align: right;
+  /* width: 180px; */
+  /* position: fixed; */
+  /* left: 50%; */
+  /* margin-left: -530px; */
+  /* bottom: 20px; */
+  /* text-align: right; */
+  text-align: center;
   line-height: 16px;
 }
 
@@ -897,6 +900,10 @@ footer {
     margin-right: 15px;
   }
 
+  #banner > div {
+	max-width: 690px;
+  }
+  
   section {
     border: 1px solid #e5e5e5;
     border-width: 1px 0;
